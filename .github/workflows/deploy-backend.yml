@@ -15,7 +15,7 @@ jobs:
           distribution: 'temurin'
       - name: Build with Maven
         run: |
-          chmode +x ./mvnw
+          chmod +x ./mvnw
           ./mvnw clean package
       - name: Deploy to Azure
         uses: azure/webapps-deploy@v2
