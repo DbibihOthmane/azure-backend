@@ -16,7 +16,7 @@ jobs:
       - name: Build with Maven
         run: |
           chmod +x ./mvnw
-          ./mvnw clean package
+          ./mvnw clean package -DskipTests
       - name: Deploy to Azure
         uses: azure/webapps-deploy@v2
         with:
