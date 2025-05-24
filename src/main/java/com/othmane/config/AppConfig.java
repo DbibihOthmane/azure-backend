@@ -41,7 +41,8 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                         "http://localhost:3000",
                         "http://localhost:5173",
-                        "http://localhost:4200"
+                        "http://localhost:4200",
+                        "https://lemon-ocean-08d291803.6.azurestaticapps.net"
 
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
